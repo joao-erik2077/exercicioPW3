@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name="contasPagar")
+@Table(name="contaspagar")
 public class ContasPagar {
 
     @Id
@@ -19,7 +19,7 @@ public class ContasPagar {
 
     private Date data;
 
-    private Date dataVencimento;
+    private Date datavencimento;
 
     private BigDecimal valor;
 
@@ -47,12 +47,12 @@ public class ContasPagar {
         this.data = data;
     }
 
-    public Date getDataVencimento() {
-        return dataVencimento;
+    public Date getDatavencimento() {
+        return datavencimento;
     }
 
-    public void setDataVencimento(Date dataVencimento) {
-        this.dataVencimento = dataVencimento;
+    public void setDatavencimento(Date datavencimento) {
+        this.datavencimento = datavencimento;
     }
 
     public BigDecimal getValor() {
